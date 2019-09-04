@@ -18,9 +18,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func showMessagePressed(_ sender: UIButton) {
+    @IBAction func messageButtonPressed(_ sender: UIButton) {
         messageLabel.text = "You Are Awesome!"
     }
+    
+    @IBAction func showAnotherMessagePressed(_ sender: UIButton) {
+        messageLabel.text = "You Are Great!"
+
+    }
+    
     
 }
 
